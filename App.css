@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c3e50;
+}
+
+.nav {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 10px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav ul .link {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav ul .link:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.display_article,
+.Sportsheadlines,
+.businessheadline,
+.technologyheadlines,
+.Scienceheadlines,
+.healthheadlines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s linear;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    height: 100%;
+    border-radius: 10px;
+    width: 450px;
+    object-fit: cover;
+    box-shadow: 0 0 5px 5px black;
+    transition: 1s linear;
+}
